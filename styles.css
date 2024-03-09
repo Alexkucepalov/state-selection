@@ -1,0 +1,73 @@
+.option1 {
+background-color: rgb(247, 198, 68);
+color: black;
+}
+
+
+.option2 {
+background-color: rgb(113, 65, 211);
+color: white;
+}
+
+.option3 {
+background-color: rgb(192, 106, 39);
+color: white;
+}
+
+.option4 {
+background-color: white;
+color: rgb(125, 160, 80);
+}
+
+.option5 {
+background-color: white;
+color: black;
+}
+
+.option6 {
+background-color: rgb(128, 128, 128);
+color: white;
+}
+
+.option7 {
+background-color: rgb(37, 103, 197);
+color: white;
+}
+
+.option8 {
+background-color: rgb(221, 223, 223);
+color: rgb(125, 160, 80);
+}
+
+.option9 {
+background-color: rgb(240, 142, 53);
+color: black;
+}
+
+.select {
+    position: relative;
+    width: 350px;
+    margin: auto;
+}
+    
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#selectedValue{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#searchResults {
+    position: absolute;
+    width: 100%;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+}
+
+#searchResults div {
+    padding: 10px;
+}
